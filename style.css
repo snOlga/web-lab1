@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  font-family: serif;
+  background-color: #272829;
+  width: fit-content;
+  margin: auto;
+  font-size: large;
+}
+
+.standartContainer {
+  background-color: #61677A;
+  border-radius: 15px;
+  color: #FFF6E0;
+  box-shadow: 3px 3px 7px #0f1010;
+}
+
+.whiteContainer {
+  background-color: #D8D9DA;
+  border-radius: 15px;
+  color: #272829;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow: 3px 3px 7px #0f1010;
+}
+
+#submitButton {
+  border: 2px solid #FFF6E0;
+  border-radius: 15px;
+  background-color: #FFF6E0;
+  width: 90px;
+}
+
+#submitButton:hover {
+  transition: 0.5s all linear;
+  border: 2px solid #27282989;
+  color: #FFF6E0;
+  background-color: #27282989;
+}
+
+.whiteContainer::before {
+  content: "🍃";
+}
+.whiteContainer::after {
+  content: "🍃";
+}
+
+button {
+  border: 2px solid #272829;
+  border-radius: 15px;
+  background-color: #272829;
+  color: #D8D9DA;
+  width: 40px;
+}
+
+button:hover {
+  transition: 0.5s all linear;
+  border: 2px solid #fff6e09c;
+  color: #272829;
+  background-color: #fff6e09c;
+}
+
+#clearButton {
+  width: 90px;
+}
+
+#selectedValueY {
+  border-radius: 15px;
+  background-color: #D8D9DA;
+  border: 2px solid #D8D9DA;
+}
+
+.inputR input:checked{
+  border: 8px solid #272829;
+}
+
+.inputR input {
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #D8D9DA;
+  transition: 0.4s all linear;
+  text-align: center;
+  position: relative;
+  vertical-align:text-bottom;
+}
+
+.tempMsg {
+  display: block;
+  margin-top: 2%;
+  height: 20px;
+  border-radius: 15px;
+}
+
+.tempMsg::first-line {
+  background-color: #d8d9dab5;
+  color: #272829;
+}
+
+#xValue {
+  background-color: #D8D9DA;
+  color: #272829;
+  width: 50px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+#checkTable {
+  width: 800px;
+}
+
+#checkTable > tbody > tr > td:hover{
+  background-color: #fff6e09c;
+  border-radius: 15px;
+  transition: 0.2s all linear;
+}
